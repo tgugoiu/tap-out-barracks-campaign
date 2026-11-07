@@ -1,0 +1,28 @@
+{
+  "name": "tap-out-barracks-campaign",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "TAP OUT BARRACKS — The Silent Campaign: interactive digital edition for GitHub Pages.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit && tsc --noEmit -p tsconfig.node.json",
+    "pages": "node scripts/pages.mjs",
+    "validate": "node scripts/validate-publication.mjs",
+    "release": "node scripts/release.mjs",
+    "qa": "node qa/run-qa.mjs"
+  },
+  "dependencies": {
+    "page-flip": "^2.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.6"
+  },
+  "engines": {
+    "node": ">=20.19"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "title": "Tap Out Barracks",
+  "subtitle": "The Silent Campaign",
+  "description": "A silent photography magazine. The fighters, the gym, the equipment and the apparel of Tap Out Barracks.",
+  "siteUrl": "https://tgugoiu.github.io/tap-out-barracks-campaign/",
+  "lang": "en",
+  "themeColor": "#0c0a0a",
+
+  "download": {
+    "mode": "auto",
+    "externalUrl": "",
+    "label": "Download the PDF"
+  },
+
+  "reader": {
+    "defaultView": "auto",
+    "flipTimeMs": 850,
+    "coverDensity": "hard",
+    "preloadSpreadsAhead": 2,
+    "preloadSpreadsBehind": 1,
+    "maxLoadedPages": 28,
+    "concurrentRequests": 4,
+    "controlsAutoHideMs": 2800,
+    "cornerHint": true,
+    "resumePrompt": true,
+    "gutterShadow": 0.22,
+    "pageStack": true
+  },
+
+  "pipeline": {
+    "outputDir": "public/magazine",
+    "pageLongEdge": 1800,
+    "pageQuality": 90,
+    "thumbLongEdge": 420,
+    "thumbQuality": 80,
+    "lqipLongEdge": 24,
+    "supersample": 1.5,
+    "webpMethod": 6,
+    "includePdf": true,
+    "pdfFileName": "tap-out-barracks-the-silent-campaign.pdf"
+  }
+}

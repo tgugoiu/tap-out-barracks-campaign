@@ -1,0 +1,33 @@
+# Dependencies and builds
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Incoming PDFs, drafts and local test material never go to Git.
+# The approved PDF reaches the site only as public/magazine/download/*.pdf,
+# copied there by the pipeline when pipeline.includePdf is true.
+incoming/
+fixtures/
+*.pdf
+!public/magazine/download/*.pdf
+
+# Pipeline staging folders (left behind only if a run is interrupted)
+public/.magazine-*
+
+# QA output (screenshots, network logs, browser profiles)
+qa-out/
+
+# Python / OS / editor noise
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.log
+*.stackdump
+
+# Local tool settings
+.claude/
